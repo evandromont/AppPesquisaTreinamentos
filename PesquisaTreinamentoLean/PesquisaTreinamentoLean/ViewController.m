@@ -15,7 +15,7 @@
 @implementation ViewController
 
 
-// ESCONDER BOTAO SALVAR
+// DESABILITA O BOTAO SALVAR
 
 -(IBAction)escondeSalvar{
     botaoSalvar.enabled = NO;
@@ -23,7 +23,7 @@
 
 // ---------------------------------------------------------------------------------------
 
-// MOSTRA BOTAO SALVAR
+// HABILITA BOTAO SALVAR
 
 -(IBAction)mostraSalvar{
     botaoSalvar.enabled = YES;
@@ -36,11 +36,12 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+// ---------------------------------------------------------------------------------------
     
     // SOBE A VIEW QUANDO O TECLADO APARECE
+    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidShow:) name:UIKeyboardDidShowNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardDidHide:) name:UIKeyboardDidHideNotification object:nil];
-  
 }
 
 - (void)keyboardDidShow:(NSNotification *)notification
