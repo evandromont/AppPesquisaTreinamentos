@@ -31,16 +31,6 @@
                                     <segue destination="2" kind="modal" id="z7l-d4-hHC"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.10000000000000014" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jCl-Mq-i6Z">
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                <state key="normal">
-                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                </state>
-                                <state key="highlighted">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="725" translatesAutoresizingMaskIntoConstraints="NO" id="fyA-2L-fkq">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="270" id="Bgz-CE-VBH"/>
@@ -71,17 +61,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="GZu-xu-hCp" secondAttribute="bottom" constant="174" id="0SJ-IO-42s"/>
                             <constraint firstItem="gNS-LS-RZA" firstAttribute="trailing" secondItem="fyA-2L-fkq" secondAttribute="trailing" type="default" id="6JY-6U-FCn"/>
-                            <constraint firstItem="jCl-Mq-i6Z" firstAttribute="top" secondItem="HMa-2g-lXO" secondAttribute="top" constant="20" symbolic="YES" type="default" id="7Gq-KX-tX6"/>
                             <constraint firstItem="fyA-2L-fkq" firstAttribute="top" secondItem="HMa-2g-lXO" secondAttribute="top" constant="428" id="BVd-oU-pGp"/>
                             <constraint firstItem="ttv-uV-2VP" firstAttribute="top" secondItem="HMa-2g-lXO" secondAttribute="top" type="default" id="Cba-7q-T0Z"/>
                             <constraint firstAttribute="trailing" secondItem="LSv-BA-WeX" secondAttribute="trailing" constant="39" id="DNF-4h-AIc"/>
                             <constraint firstItem="ttv-uV-2VP" firstAttribute="leading" secondItem="HMa-2g-lXO" secondAttribute="leading" type="default" id="E4m-Km-xgz"/>
-                            <constraint firstAttribute="trailing" secondItem="jCl-Mq-i6Z" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="GGv-Eo-pUc"/>
                             <constraint firstItem="GZu-xu-hCp" firstAttribute="centerX" secondItem="fyA-2L-fkq" secondAttribute="centerX" type="default" id="Htr-RN-7YR"/>
                             <constraint firstItem="fyA-2L-fkq" firstAttribute="centerX" secondItem="ttv-uV-2VP" secondAttribute="centerX" type="default" id="Kza-7R-H8X"/>
                             <constraint firstItem="gNS-LS-RZA" firstAttribute="leading" secondItem="fyA-2L-fkq" secondAttribute="leading" type="default" id="UTn-CB-pcp"/>
+                            <constraint firstAttribute="bottom" secondItem="GZu-xu-hCp" secondAttribute="bottom" constant="128" id="ijP-uZ-kny"/>
                             <constraint firstAttribute="bottom" secondItem="LSv-BA-WeX" secondAttribute="bottom" constant="276" id="n85-LG-4M7"/>
                             <constraint firstItem="gNS-LS-RZA" firstAttribute="top" secondItem="HMa-2g-lXO" secondAttribute="top" constant="250" id="t2F-gj-MHe"/>
                         </constraints>
@@ -513,6 +501,21 @@
         <image name="BgPesquisa~ipad.png" width="768" height="1024"/>
         <image name="BtSalvar~ipad.png" width="715" height="45"/>
     </resources>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="Alert"/>
+                <relationship kind="action" name="Screenshot"/>
+                <relationship kind="action" name="escondeSalvar"/>
+                <relationship kind="action" name="mostraSalvar"/>
+                <relationship kind="outlet" name="botaoSalvar" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation"/>
