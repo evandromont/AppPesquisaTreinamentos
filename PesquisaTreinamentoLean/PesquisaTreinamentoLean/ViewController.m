@@ -30,6 +30,42 @@
 }
 
 // ---------------------------------------------------------------------------------------
+// HABILITA PROXIMA RESPOSTA
+
+- (IBAction)habilitaResposta02{
+    resposta02.enabled = YES;
+}
+
+- (IBAction)habilitaResposta03{
+    resposta03.enabled = YES;
+}
+
+- (IBAction)habilitaResposta04{
+    resposta04.enabled = YES;
+}
+
+- (IBAction)habilitaResposta05{
+    resposta05.enabled = YES;
+}
+
+- (IBAction)habilitaResposta06{
+    resposta06.enabled = YES;
+}
+
+- (IBAction)habilitaResposta07{
+    resposta07.enabled = YES;
+}
+
+- (IBAction)habilitaResposta08{
+    resposta08.enabled = YES;
+}
+
+- (IBAction)habilitaResposta09{
+    resposta09.enabled = YES;
+}
+
+
+// ---------------------------------------------------------------------------------------
 
 - (void)viewDidLoad
 {

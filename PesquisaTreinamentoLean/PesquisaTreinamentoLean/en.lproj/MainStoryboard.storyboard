@@ -170,6 +170,9 @@
                                     <segment title="4"/>
                                     <segment title="5"/>
                                 </segments>
+                                <connections>
+                                    <action selector="habilitaResposta02" destination="2" eventType="valueChanged" id="bUP-rT-T1C"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="2 - Os conceitos podem ser colocados em prática" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QX4-71-yVR">
                                 <constraints>
@@ -179,7 +182,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="qq8-1c-WPz">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="qq8-1c-WPz">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="EnG-bL-OMP"/>
                                 </constraints>
@@ -190,6 +193,9 @@
                                     <segment title="4"/>
                                     <segment title="5"/>
                                 </segments>
+                                <connections>
+                                    <action selector="habilitaResposta03" destination="2" eventType="valueChanged" id="KvG-ZP-sVg"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="3 - O conteúdo do treinamento estava estruturado" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSP-aF-fBl">
                                 <constraints>
@@ -199,7 +205,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="RPQ-db-qd0">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="RPQ-db-qd0">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="upt-ag-8lq"/>
                                 </constraints>
@@ -210,6 +216,9 @@
                                     <segment title="4"/>
                                     <segment title="5"/>
                                 </segments>
+                                <connections>
+                                    <action selector="habilitaResposta04" destination="2" eventType="valueChanged" id="5j6-jY-ie5"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="4 - A duração do treinamento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xdb-ln-7Cs">
                                 <constraints>
@@ -219,7 +228,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="n3Z-lk-SPh">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="n3Z-lk-SPh">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="cgm-Sm-Ebu"/>
                                 </constraints>
@@ -230,6 +239,9 @@
                                     <segment title="4"/>
                                     <segment title="5"/>
                                 </segments>
+                                <connections>
+                                    <action selector="habilitaResposta05" destination="2" eventType="valueChanged" id="xaV-Cs-5ky"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="5 - O palestrante demonstrou ter o conhecimento / dominio sobre o assunto" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="461" translatesAutoresizingMaskIntoConstraints="NO" id="GAz-Ty-qCF">
                                 <constraints>
@@ -239,7 +251,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="4C1-bG-cfw">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="4C1-bG-cfw">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="0Mq-gN-stX"/>
                                 </constraints>
@@ -250,6 +262,9 @@
                                     <segment title="4"/>
                                     <segment title="5"/>
                                 </segments>
+                                <connections>
+                                    <action selector="habilitaResposta06" destination="2" eventType="valueChanged" id="e2e-Mi-APx"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="6 - O palestrante utilizou metodologias diferenciadas" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f31-tv-bRJ">
                                 <constraints>
@@ -259,7 +274,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="I1h-9v-DWT">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="I1h-9v-DWT">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="43" id="Wor-Cg-kGs"/>
                                 </constraints>
@@ -270,6 +285,9 @@
                                     <segment title="4"/>
                                     <segment title="5"/>
                                 </segments>
+                                <connections>
+                                    <action selector="habilitaResposta07" destination="2" eventType="valueChanged" id="um1-9q-Nzo"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="7 - O palestrante esclareceu as dúvidas dos participantes" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xf6-h3-IDF">
                                 <constraints>
@@ -279,7 +297,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="KMF-B0-ElY">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="KMF-B0-ElY">
                                 <segments>
                                     <segment title="1"/>
                                     <segment title="2"/>
@@ -287,6 +305,9 @@
                                     <segment title="4"/>
                                     <segment title="5"/>
                                 </segments>
+                                <connections>
+                                    <action selector="habilitaResposta08" destination="2" eventType="valueChanged" id="FqN-GN-DiA"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="8 - Localização do treinamento" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXM-0Q-E9E">
                                 <constraints>
@@ -296,7 +317,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="iEL-av-KYH">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="iEL-av-KYH">
                                 <segments>
                                     <segment title="1"/>
                                     <segment title="2"/>
@@ -304,6 +325,9 @@
                                     <segment title="4"/>
                                     <segment title="5"/>
                                 </segments>
+                                <connections>
+                                    <action selector="habilitaResposta09" destination="2" eventType="valueChanged" id="Zyu-Lc-MsQ"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="9 - Infraestrutura (sala, equipamentos, materiais)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeI-zE-PRm">
                                 <constraints>
@@ -321,7 +345,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="9OI-l5-nLZ">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" translatesAutoresizingMaskIntoConstraints="NO" id="9OI-l5-nLZ">
                                 <segments>
                                     <segment title="1"/>
                                     <segment title="2"/>
@@ -490,6 +514,14 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
                         <outlet property="botaoSalvar" destination="eSE-gM-Shb" id="QGt-wW-0cd"/>
+                        <outlet property="resposta02" destination="qq8-1c-WPz" id="y9f-mi-rhP"/>
+                        <outlet property="resposta03" destination="RPQ-db-qd0" id="YRn-qy-798"/>
+                        <outlet property="resposta04" destination="n3Z-lk-SPh" id="YJS-oQ-7MZ"/>
+                        <outlet property="resposta05" destination="4C1-bG-cfw" id="z80-Ap-Wvm"/>
+                        <outlet property="resposta06" destination="I1h-9v-DWT" id="ek1-nx-zeE"/>
+                        <outlet property="resposta07" destination="KMF-B0-ElY" id="g8g-dM-NO6"/>
+                        <outlet property="resposta08" destination="iEL-av-KYH" id="E9t-4h-Bkb"/>
+                        <outlet property="resposta09" destination="9OI-l5-nLZ" id="KRO-BH-pP1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
@@ -511,8 +543,24 @@
                 <relationship kind="action" name="Alert"/>
                 <relationship kind="action" name="Screenshot"/>
                 <relationship kind="action" name="escondeSalvar"/>
+                <relationship kind="action" name="habilitaResposta02"/>
+                <relationship kind="action" name="habilitaResposta03"/>
+                <relationship kind="action" name="habilitaResposta04"/>
+                <relationship kind="action" name="habilitaResposta05"/>
+                <relationship kind="action" name="habilitaResposta06"/>
+                <relationship kind="action" name="habilitaResposta07"/>
+                <relationship kind="action" name="habilitaResposta08"/>
+                <relationship kind="action" name="habilitaResposta09"/>
                 <relationship kind="action" name="mostraSalvar"/>
                 <relationship kind="outlet" name="botaoSalvar" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="resposta02" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="resposta03" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="resposta04" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="resposta05" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="resposta06" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="resposta07" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="resposta08" candidateClass="UISegmentedControl"/>
+                <relationship kind="outlet" name="resposta09" candidateClass="UISegmentedControl"/>
             </relationships>
         </class>
     </classes>
